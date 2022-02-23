@@ -1,0 +1,504 @@
+body{
+  font-family: "Open Sans";
+  height: 100%;
+  margin: 0;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.center_div{
+    margin: 0 auto;
+    width:80%;
+}
+.boxy{
+  margin-right: 10px;
+}
+.boxyl{
+  margin-left: 10px;
+}
+.bg{
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align:top;
+}
+.cBlack{
+  color: black;
+}
+.btn-toolbar button:hover{
+  color:black;
+  text-decoration: none;
+}
+.fa-envelope{
+  margin-right: 20px;
+}
+
+
+.mySlides{
+  height: 100%;
+  display: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.container1{
+  margin-top: none;
+  text-align: center;
+}
+.btn-lg{
+  font-size: 20px;
+}
+/* .cover{
+  text-align: center;
+} */
+.container button:hover{
+  border: 3px solid #f4006e;
+}
+.iImage{
+  background-color:white
+}
+.row1{
+  display: flex;
+  margin-top: 20px;
+}
+.main{
+  flex:80%;
+  background-color: white;
+  padding: 30px;
+}
+.main1{
+  flex: 50%;
+  padding: 30px;
+}
+.side1{
+  flex: 50%;
+}
+.half1,.half2{
+  flex: 25%;
+}
+.row1 .main .container button:hover{
+  color: #dce214;
+  border: none;
+}
+
+.side{
+  flex: 20%;
+  padding: 10px;
+}
+
+.ahoy{
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-top: 20px;
+  vertical-align: middle;
+}
+.downBorder{
+  border-bottom: 1px solid black;
+}
+.downMargin{
+  margin-bottom: 19px;
+}
+.card {
+
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+
+.card:hover {
+    box-shadow: 8px 16px 32px 0 rgba(0,0,0,0.8);
+}
+.zeroMargin{
+  margin-bottom: 20px;
+}
+h5{
+  margin-top: 50px;
+}
+.bgcolor{
+  margin-left: 40px;
+  margin-right: 60px;
+}
+a:hover{
+  text-decoration: none;
+
+}
+.difColor{
+  background-color: rgb(226, 226,226);
+}
+.blackBg{
+  background-color: #040505;
+}
+.blackBg1{
+  background-color: #161616;
+
+}
+.footer{
+  background-color: black;
+}
+img.opa{
+
+  -webkit-filter: contrast(200%);
+   filter: contrast(40%);
+}
+.box {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.marginRight{
+  margin-right: 150px;
+}
+.checked {
+    color: orange;
+}
+.heading{
+  letter-spacing: 0.1em;
+  font-size:10px;
+  margin-top:40px;
+  color:white;
+}
+.unordered-list{
+  padding: 0;
+  margin-bottom: 1.5rem;
+  font-size: 0.8rem;
+  list-style: none;
+}
+.list-item{
+  margin-bottom: 5px;
+  display:list-item;
+  text-align:-webkit-match-parent;
+  color:white;
+}
+.middle{
+text-align: center;
+}
+.container .row a{
+  color:white;
+}
+.page-link{
+  color:black;
+}
+.dot1{
+  height: 15px;
+  width: 15px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot2{
+  height: 15px;
+  width: 15px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot3{
+  height: 15px;
+  width: 15px;
+  background-color:blue;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot4{
+  height: 15px;
+  width: 15px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot5{
+  height: 15px;
+  width: 15px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot6{
+  height: 15px;
+  width: 15px;
+  background-color: indigo;
+  border-radius: 50%;
+  display: inline-block;
+}
+.tablink {
+    background-color: #555;
+    color: black;
+    float: left;
+    border-radius: 50%;
+}
+
+.tablink:hover {
+    background-color: orange;
+}
+
+/* Style the tab content */
+.tabcontent {
+    color: black;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+.tabcontent img{
+  width: 30%;
+}
+
+#London {
+  background-color:white;
+}
+#Paris {
+  background-color:white;
+}
+#Tokyo {
+  background-color:white;
+}
+#Oslo {
+  background-color:white;
+}
+.dot7{
+  height: 15px;
+  width: 15px;
+  background-color: grey;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  width: 50%;
+}
+.yo{
+  position: relative;
+  text-align: center;
+
+}
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  position: relative;
+
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.yo:hover .image {
+  opacity: 0.3;
+}
+
+.yo:hover .middle {
+  opacity: 1;
+}
+
+.text {
+
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.yo{
+  position: relative;
+  text-align: center;
+
+}
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  width: 50%;
+}
+.checked{
+  color: orange;
+}
+
+.tablink12{
+
+    color: black;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+
+/* Style the tab content */
+.tabcontent12{
+    color: white;
+
+    padding: 50px;
+    text-align: center;
+}
+
+.wrapper1{
+  position: relative;
+}
+.center12{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  margin-right: 500px;
+  display: block;
+}
+#London12 {
+  background-color:white;
+}
+#Paris12 {
+  background-color:white;
+}
+#Tokyo12 {
+  background-color:white;
+}
+#Oslo12 {
+  background-color:white;
+
+}
+.borderImage{
+  background-image: url('img_watch2.jpeg');
+  background-size:contain;
+  border:1px solid #c7c9cc;
+  width:72;
+  height:60;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-right: 10px;
+
+}
+.borderImage1{
+  background-image: url('img_headset2.jpeg');
+  background-size:contain;
+  border:1px solid #c7c9cc;
+  width:72;
+  height:60;
+  margin-top: 50px;
+  margin-right: 10px;
+
+}
+
+.borderImage2{
+  background-image: url('img_watch2.jpeg');
+  background-size:contain;
+  border:1px solid #c7c9cc;
+  width:72;
+  height:60;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+.borderImage3{
+  background-image: url('img_headset2.jpeg');
+  background-size:contain;
+  border:1px solid #c7c9cc;
+  width:72;
+  height:60;
+  margin-top: 50px;
+
+}
+.ribbon-info {
+    background-color: #17a2b8 !important;
+}
+.ribbon {
+    position: absolute;
+    top: 10px;
+    left: -11px;
+    z-index: 999;
+    display: inline-block;
+    font-family: "HK Grotesk",sans-serif;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    padding: 3px 15px 5px;
+    color: #f7eeee;
+    text-align: center;
+}
+.noBorder button:hover{
+  border:none;
+}
